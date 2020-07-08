@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+font-family: 'Open Sans', sans-serif;
+ */
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.header {
+  background-color: #d34346;
+  border-bottom: solid 10px #bd2d30;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 33px 0; */
+  align-items: center;
+}
+
+.header__menu-item {
+  display: inline-block;
+
+}
+
+.header__menu-item+.header__menu-item {
+  margin-left: 10px;
+}
+
+.header__menu-item a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  line-height: 15px;
+  padding-top: 38px;
+  padding-bottom: 30px;
+  width: 100px;
+  text-align: center;
+}
+
+.a-active {
+  background-color: #bd2d30;
+}
+
+.header__social-list-item {
+  display: inline;
+}
+
+.header__social-list-item+.header__social-list-item {
+  margin-left: 25px;
+}
+
+.header__social-list-item a {
+  color: #fff;
+}
+
+.slider {
+  height: 495px;
+  background-color: #8199aa;
+  display: flex;
+  align-items: center;
+}
+
+.slider__item-wrap {
+  width: 570px;
+  color: #fff;
+}
+
+.slider__item-head {
+  font-family: 'Open Sans';
+  font-size: 25px;
+  line-height: 27px;
+  background-color: #be3639;
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+.slider__item-head span {
+
+  font-family: 'Open Sans';
+  font-weight: 800;
+}
+
+.slider__item-body {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #465869;
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.slider .slick-arrow {
+  font-size: 0px;
+  height: 47px;
+  width: 70px;
+  background-color: #be3639;
+  cursor: pointer;
+  border: 0;
+  position: relative;
+  padding: 0 16px;
+}
+.slider .slick-prev {
+  position: relative;
+}
+.slider .slick-prev:before {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  content: '\f053';
+  font-family: 'icomoon';
+  font-size: 25px;
+  color:#fff
+}
+.slider .slick-next:before {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  content: '\f054';
+  font-family: 'icomoon';
+  font-size: 25px;
+  color:#fff
+}
+.slider .slick-list {
+  align-self: end;
+  margin-bottom: 60px;
+}
