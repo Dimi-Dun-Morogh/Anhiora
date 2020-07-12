@@ -10,19 +10,27 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/slick.css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__inner">
-          <div class="header__logo">
+          <div class="header__logo" >
             <img src="img/Logo.png" alt="" />
           </div>
           <nav class="header__menu">
             <ul class="header__menu-list">
-              <li class="header__menu-item"><a href="#">Home</a></li>
+              <li class="header__menu-item">
+                <a href="#" class="a-active">Home</a>
+              </li>
               <li class="header__menu-item"><a href="#">About</a></li>
               <li class="header__menu-item"><a href="#">Services</a></li>
               <li class="header__menu-item"><a href="#">Prices</a></li>
@@ -38,7 +46,7 @@
                 <a href="#"><span class="icon-google-plus"></span></a>
               </li>
               <li class="header__social-list-item">
-                <a href="#"><span class="icon-twitter"></span></a>
+                <a href="#"><span class="icon-twitter" id="anchor-top"></span></a>
               </li>
             </ul>
           </div>
@@ -49,7 +57,9 @@
       <div class="slider__item-1">
         <div class="container">
           <div class="slider__item-wrap">
-            <div class="slider__item-head"><span>Ahniora</span> business solutions</div>
+            <div class="slider__item-head">
+              <span>Ahniora</span> business solutions#1
+            </div>
             <div class="slider__item-body">
               Ethernet scan, in indeterminate controller high, recognition
               frequency silicon logistically. Read-only or boolean potentiometer
@@ -61,7 +71,9 @@
       <div class="slider__item-2">
         <div class="container">
           <div class="slider__item-wrap">
-            <div class="slider__item-head"><span>Ahniora</span> business solutions</div>
+            <div class="slider__item-head">
+              <span>Ahniora</span> business solutions#2
+            </div>
             <div class="slider__item-body">
               Ethernet scan, in indeterminate controller high, recognition
               frequency silicon logistically. Read-only or boolean potentiometer
@@ -73,7 +85,9 @@
       <div class="slider__item-3">
         <div class="container">
           <div class="slider__item-wrap">
-            <div class="slider__item-head"><span>Ahniora</span> business solutions</div>
+            <div class="slider__item-head">
+              <span>Ahniora</span> business solutions#3
+            </div>
             <div class="slider__item-body">
               Ethernet scan, in indeterminate controller high, recognition
               frequency silicon logistically. Read-only or boolean potentiometer
@@ -83,7 +97,531 @@
         </div>
       </div>
     </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <section class="content">
+      <div class="content__ideas">
+        <div class="container">
+          <div class="content__ideas-wrap">
+            <div class="content__ideas-item">
+              <span class="icon-road"></span>
+              <div class="content__ideas-item-inner">
+                <span>New way of vision</span>
+                Curabitur at rhoncus quam. In in tortor quis sem tempor
+                ultricies in.
+              </div>
+            </div>
+            <div class="content__ideas-item">
+              <span class="icon-leaf"></span>
+              <div class="content__ideas-item-inner">
+                <span>Fresh ideas</span>
+                Curabitur at rhoncus quam. In in tortor quis sem tempor
+                ultricies in.
+              </div>
+            </div>
+            <div class="content__ideas-item">
+              <span class="icon-home"></span>
+              <div class="content__ideas-item-inner">
+                <span>Strong foundations</span>
+                Curabitur at rhoncus quam. In in tortor quis sem tempor
+                ultricies in.
+              </div>
+            </div>
+            <div class="content__ideas-item">
+              <span class="icon-users"></span>
+              <div class="content__ideas-item-inner">
+                <span>Great Support</span>
+                Curabitur at rhoncus quam. In in tortor quis sem tempor
+                ultricies in.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content__about-us">
+        <div class="container">
+          <div class="content__about-us-header"   >
+            <span>About us</span>
+            <div class="wrap-icon">
+              <a href="#anchor-top" id="anchor-aboutus"><span class="icon-arrow-up"></span></a>
+            </div>
+          </div>
+          <div class="content__about-us-items-wrap">
+            <div class="content__about-us-item">
+              <div class="content__about-us-item-head">
+                Who We Are?
+              </div>
+              <div class="content__about-us-item-body" >
+                Suspendisse dictum quam tortor, et dapibus lacus. Quisque
+                euismod lacus in mi consequat sed pulvinar elit ultricies. Nam
+                eu ligula ut massa lobortis scelerisque. Curabitur at rhoncus
+                quam. In in tortor quis sem tempor ultricies in eu risus. Fusce
+                posuere justo et metus semper molestie.
+              </div>
+            </div>
+            <div class="content__about-us-item">
+              <div class="content__about-us-item-head">
+                Why Us?
+              </div>
+              <div class="content__about-us-item-body">
+                <p>
+                  <span class="icon-arrow-right"></span>
+                  <span>Suspendisse dictum quam</span>
+                </p>
+                <p>
+                  <span class="icon-arrow-right"></span>
+                  <span> Quisque euismod lacus</span>
+                </p>
+                <p>
+                  <span class="icon-arrow-right"></span>
+                  <span>Fusce posuere justo et</span>
+                </p>
+                <p>
+                  <span class="icon-arrow-right"></span>
+                  <span>Suspendisse dictum quam</span>
+                </p>
+                <p>
+                  <span class="icon-arrow-right"></span>
+                  <span>Fusce posuere justo et</span>
+                </p>
+                <p>
+                  <span class="icon-arrow-right"></span>
+                  <span>Suspendisse dictum quam</span>
+                </p>
+              </div>
+            </div>
+            <div class="content__about-us-item">
+              <div class="content__about-us-item-head">
+                Testemonials
+                <div class="content__about-us-item-head-btns">
+                  <a href="#">
+                    <span class="icon-chevron-left"></span>
+                  </a>
+                  <a href="#">
+                    <span class="icon-chevron-right"></span>
+                  </a>
+                </div>
+              </div>
+              <div class="content__about-us-item-body-testemonial">
+                <div class="content__about-us-item-body-quote">
+                  Suspendisse dictum quam tortor, et dapibus lacus. Quisque
+                  euismod lacus in mi consequat sed pulvinar elit ultricies. Nam
+                  eu ligula ut massa lobortis scelerisque. Curabitur at rhoncus
+                  quam.
+                </div>
+                <img src="/img/Path2.png" alt="" />
+                <span class="content__about-us-item-quote-Author"
+                  >Jhon Doe</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content__team">
+        <div class="container">
+          <div class="content__team-header">
+            <span>Meet the team</span>
+            <div class="content__team-header-btns">
+              <a href="#">
+                <span class="icon-chevron-left"></span>
+              </a>
+              <a href="#">
+                <span class="icon-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+          <div class="content__team-items-wrap">
+            <div class="content__team-item">
+              <img src="/img/photo.jpg" alt="" />
+              <span class="content__team-item-name">Stojan Petrov</span>
+              <span class="content__team-item-qualify">manager</span>
+            </div>
+            <div class="content__team-item">
+              <img src="/img/photo.jpg" alt="" />
+              <span class="content__team-item-name">Ivelina Peeva</span>
+              <span class="content__team-item-qualify">client relations</span>
+            </div>
+            <div class="content__team-item">
+              <img src="/img/photo.jpg" alt="" />
+              <span class="content__team-item-name">Georgiy Stoychev</span>
+              <span class="content__team-item-qualify">sales</span>
+            </div>
+            <div class="content__team-item">
+              <img src="/img/photo.jpg" alt="" />
+              <span class="content__team-item-name">Milena Ivanova</span>
+              <span class="content__team-item-qualify">office manager</span>
+            </div>
+          </div>
+        </div>
+        <div class="content__services">
+          <div class="container">
+            <div class="content__services">
+              <div class="content__services-header">
+                <span>services</span>
+                <div class="wrap-icon services">
+                  <a href="#anchor-aboutus" id="anchor-services"><span class="icon-arrow-up"></span></a>
+                </div>
+              </div>
+              <div class="content__services-items-wrap">
+                <div class="content__services-item">
+                  <div class="content__services-item-head">
+                    <span class="icon-comments"></span>
+                    Consulting
+                  </div>
+                  <div class="content__services-item-body">
+                    In quis magna eget magna rutrum hendrerit. Donec dap ibus
+                    aliquet magna in facilisis.
+                  </div>
+                </div>
+                <div class="content__services-item">
+                  <div class="content__services-item-head">
+                    <span class="icon-calendar"></span>
+                    Planning
+                  </div>
+                  <div class="content__services-item-body">
+                    In quis magna eget magna rutrum hendrerit. Donec dap ibus
+                    aliquet magna in facilisis.
+                  </div>
+                </div>
+                <div class="content__services-item">
+                  <div class="content__services-item-head">
+                    <span class="icon-cogs"></span>
+                    Development
+                  </div>
+                  <div class="content__services-item-body">
+                    In quis magna eget magna rutrum hendrerit. Donec dap ibus
+                    aliquet magna in facilisis.
+                  </div>
+                </div>
+                <div class="content__services-item">
+                  <div class="content__services-item-head">
+                    <span class="icon-flask"></span>
+                    Production
+                  </div>
+                  <div class="content__services-item-body">
+                    In quis magna eget magna rutrum hendrerit. Donec dap ibus
+                    aliquet magna in facilisis.
+                  </div>
+                </div>
+                <div class="content__services-item">
+                  <div class="content__services-item-head">
+                    <span class="icon-bar-chart"></span>
+                    Analysis
+                  </div>
+                  <div class="content__services-item-body">
+                    In quis magna eget magna rutrum hendrerit. Donec dap ibus
+                    aliquet magna in facilisis.
+                  </div>
+                </div>
+                <div class="content__services-item">
+                  <div class="content__services-item-head">
+                    <span class="icon-airplane"></span>
+                    Release
+                  </div>
+                  <div class="content__services-item-body">
+                    In quis magna eget magna rutrum hendrerit. Donec dap ibus
+                    aliquet magna in facilisis.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__results">
+          <div class="container">
+            <div class="content__results-inner">
+              <div class="content__results-tabs">
+                <div id="tabs">
+                  <ul>
+                    <li><a href="#tabs-1">TAB DATA</a></li>
+                    <li><a href="#tabs-2">TAB DATA</a></li>
+                    <li><a href="#tabs-3">TAB DATA</a></li>
+                  </ul>
+                  <div id="tabs-1">
+                    <p>
+                      Proin elit arcu, rutrum commodo, vehicula tempus, commodo
+                      a, risus. Curabitur nec arcu. Donec sollicitudin mi sit
+                      amet mauris. Nam elementum quam ullamcorper ante. Etiam
+                      aliquet massa et lorem. Mauris dapibus lacus auctor risus.
+                      Aenean tempor ullamcorper leo. Vivamus sed magna quis
+                      ligula eleifend adipiscing. Duis orci. Aliquam sodales
+                      tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie
+                      erat. Ut et mauris vel pede varius sollicitudin. Sed ut
+                      dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc
+                      tristique tempus lectus.
+                    </p>
+                  </div>
+                  <div id="tabs-2">
+                    <p>
+                      Morbi tincidunt, dui sit amet facilisis feugiat, odio
+                      metus gravida ante, ut pharetra massa metus id nunc. Duis
+                      scelerisque molestie turpis. Sed fringilla, massa eget
+                      luctus malesuada, metus eros molestie lectus, ut tempus
+                      eros massa ut dolor. Aenean aliquet fringilla sem.
+                      Suspendisse sed ligula in ligula suscipit aliquam.
+                      Praesent in eros vestibulum mi adipiscing adipiscing.
+                      Morbi facilisis. Curabitur ornare consequat nunc. Aenean
+                      vel metus. Ut posuere viverra nulla. Aliquam erat
+                      volutpat. Pellentesque convallis. Maecenas feugiat, tellus
+                      pellentesque pretium posuere, felis lorem euismod felis,
+                      eu ornare leo nisi vel felis. Mauris consectetur tortor et
+                      purus.
+                    </p>
+                  </div>
+                  <div id="tabs-3">
+                    <p>
+                      Mauris eleifend est et turpis. Duis id erat. Suspendisse
+                      potenti. Aliquam vulputate, pede vel vehicula accumsan, mi
+                      neque rutrum erat, eu congue orci lorem eget lorem.
+                      Vestibulum non ante. Class aptent taciti sociosqu ad
+                      litora torquent per conubia nostra, per inceptos
+                      himenaeos. Fusce sodales. Quisque eu urna vel enim commodo
+                      pellentesque. Praesent eu risus hendrerit ligula tempus
+                      pretium. Curabitur lorem enim, pretium nec, feugiat nec,
+                      luctus a, lacus.
+                    </p>
+                    <p>
+                      Duis cursus. Maecenas ligula eros, blandit nec, pharetra
+                      at, semper at, magna. Nullam ac lacus. Nulla facilisi.
+                      Praesent viverra justo vitae neque. Praesent blandit
+                      adipiscing velit. Suspendisse potenti. Donec mattis, pede
+                      vel pharetra blandit, magna ligula faucibus eros, id
+                      euismod lacus dolor eget odio. Nam scelerisque. Donec non
+                      libero sed nulla mattis commodo. Ut sagittis. Donec nisi
+                      lectus, feugiat porttitor, tempor ac, tempor vitae, pede.
+                      Aenean vehicula velit eu tellus interdum rutrum. Maecenas
+                      commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a
+                      libero vitae lectus hendrerit hendrerit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="content__results-progress">
+                <span>Some of our results</span>
+                <div class="content__results-progress-group">
+                  <span>Quisque euismod </span>
+                  <div class="content__results-progress-group-bar">
+                    <div
+                      class="content__results-progress-group-bar-value"
+                      id="progress-1"
+                    ></div>
+                  </div>
+                </div>
+                <div class="content__results-progress-group">
+                  <span>Maecenas commodo</span>
+                  <div class="content__results-progress-group-bar">
+                    <div
+                      class="content__results-progress-group-bar-value"
+                      id="progress-2"
+                    ></div>
+                  </div>
+                </div>
+                <div class="content__results-progress-group">
+                  <span>Quisque euismod </span>
+                  <div class="content__results-progress-group-bar">
+                    <div
+                      class="content__results-progress-group-bar-value"
+                      id="progress-3"
+                    ></div>
+                  </div>
+                </div>
+                <div class="content__results-progress-group">
+                  <span>Duis cursus. Maecenas. </span>
+                  <div class="content__results-progress-group-bar">
+                    <div
+                      class="content__results-progress-group-bar-value"
+                      id="progress-4"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content__prices">
+        <div class="container">
+          <div class="content__prices-header">
+            <span>SEE OUR PRICES AND COMPARE!</span>
+            <div class="wrap-icon">
+              <a href="#anchor-services" id="anchor-prices"><span class="icon-arrow-up"></span></a>
+            </div>
+          </div>
+          <div class="content__prices-items-wrap">
+            <div class="content__prices-item">
+              <span class="content__prices-item-header">Light</span>
+              <span class="content__prices-item-price">Free</span>
+              <ul>
+                <li>
+                  <span class="icon-check-square-o"></span>
+                  <span>Sigula ut massa lob</span>
+                </li>
+                <li><span class="icon-check-square-o"></span>Dictum quam to</li>
+              </ul>
+              <div class="content__prices-item-footer-wrap">
+                <span class="content__prices-item-footer">
+                  Sign up for free
+                </span>
+              </div>
+            </div>
+            <div class="content__prices-item">
+              <span class="content__prices-item-header">Standart</span>
+              <span class="content__prices-item-price">$10 per/m</span>
+              <ul>
+                <li>
+                  <span class="icon-check-square-o"></span>
+                  <span>Sigula ut massa lob</span>
+                </li>
+                <li><span class="icon-check-square-o"></span>Dictum quam to</li>
+                <li>
+                  <span class="icon-check-square-o"></span>Consequat sed
+                  pulvinar
+                </li>
+                <li>
+                  <span class="icon-check-square-o"></span>Sed pulvinar el
+                </li>
+              </ul>
+              <div class="content__prices-item-footer-wrap">
+                <span class="content__prices-item-footer">
+                  Buy NOW
+                </span>
+              </div>
+            </div>
+            <div class="content__prices-item item-business">
+              <span class="content__prices-item-header">Business</span>
+              <span class="content__prices-item-price">$35 per/m</span>
+              <ul>
+                <li>
+                  <span class="icon-check-square-o"></span>
+                  <span>Sigula ut massa lob</span>
+                </li>
+                <li><span class="icon-check-square-o"></span>Dictum quam to</li>
+                <li>
+                  <span class="icon-check-square-o"></span>Consequat sed
+                  pulvinar
+                </li>
+              </ul>
+              <div class="content__prices-item-footer-wrap">
+                <span class="content__prices-item-footer">
+                  Buy NOW
+                </span>
+              </div>
+            </div>
+            <div class="content__prices-item">
+              <span class="content__prices-item-header">Enterprise</span>
+              <span class="content__prices-item-price">$70 per/m</span>
+              <ul>
+                <li>
+                  <span class="icon-check-square-o"></span>
+                  <span>Sigula ut massa lob</span>
+                </li>
+                <li><span class="icon-check-square-o"></span>Dictum quam to</li>
+                <li>
+                  <span class="icon-check-square-o"></span>Consequat sed
+                  pulvinar
+                </li>
+                <li>
+                  <span class="icon-check-square-o"></span>
+                  <span>Sigula ut massa lob</span>
+                </li>
+              </ul>
+              <div class="content__prices-item-footer-wrap">
+                <span class="content__prices-item-footer">
+                  Buy NOW
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content__sign-up">
+        <div class="container">
+          <div class="content__sign-up-wrap">
+          <div class="content__sign-up-describe">
+            <span>Sign up for free</span>
+            Suspendisse dictum quam tortor, et dapibus lacus. Quisque euismod lacus in mi consequat sed pulvinar elit ultricies. Nam eu ligula ut massa
+          </div>
+          <div class="content__sign-up-input-wrap">
+            <div class="content__sign-up-input-wrap-inner">
+            <input type="text">
+            <a href="#">
+              subscribe to our
+              <span>NEWSLETTER</span>
+            </a> </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+<section class="contacts">
+  <div class="contacts__map">
+    <div class="container">
+      <div class="contacts__map-header content__services-header">
+        <span>CONTACTS</span>
+        <div class="wrap-icon services">
+          <a href="#anchor-prices"><span class="icon-arrow-up"></span></a>
+        </div>
+      </div>
+      <div class="contacts__map-inner">
+        <span>YOUR MAP</span>
+      </div>
+    </div>
+  </div>
+  <div class="contacts__info">
+ <div class="container">
+   <div class="contacts__wrap">
+    <div class="contacts__form">
+      <span>Contact form</span>
+      <div class="contacts__form-inner">
+        <form >
+          <div class="contacts__form-inputs">
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="email">
+            <input type="text" placeholder="phone">
+          </div>
+          <div class="contacts__form-comment">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Comment"></textarea>
+            <!-- <input type="text" value="comment"> -->
+            <input type="submit" value="SEND">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="contacts__adress">
+      <span>Address</span>
+      <div class="contacts__adress-info">
+        <span>Anhiora communication</span>
+        <p>Sevenoaks Rd<br>
+          Sevenoaks TN14 7HR, United Kingdom </p>
+          <ul>
+            <li><span>t</span>998 25698 569</li>
+            <li><span>f</span>998 25698 569</li>
+            <li class="contacts__adress-info-email"><span class="">e</span>info@ahniora.com</li>
+          </ul>
+          <div class="contacts__adress-info-social">
+            <ul>
+<li> <a href="#"><span class="icon-facebook"></span></a></li>
+<li><a href="#"><span class="icon-google-plus"></span></a></li>
+<li><a href="#"><span class="icon-twitter"></span></a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+   </div>
+
+ </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="content__services-header footer-header">
+      <span>© 2013 Anhiora comunication   </span>
+      <div class="wrap-icon services">
+        <a href="#anchor-prices"><span class="icon-arrow-up"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
   </body>
