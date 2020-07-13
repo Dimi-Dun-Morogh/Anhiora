@@ -1,0 +1,297 @@
+@media (max-width: 1024px) {
+  .content__ideas {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+
+  .content__ideas-item {
+    margin-bottom: 10px;
+  }
+
+  .content__ideas-wrap {
+    justify-content: center;
+  }
+
+  .content__about-us-items-wrap {
+    justify-content: center;
+  }
+
+  .content__about-us-item {
+    width: 270px;
+  }
+
+  .content__about-us-item-body-quote {
+    overflow: hidden;
+  }
+
+  .content__team-item {
+    width: 200px;
+    margin-right: 10px;
+  }
+
+  .content__services-items-wrap {
+    justify-content: center;
+  }
+
+  .content__services-item {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .content__results-tabs {
+    width: 330px;
+  }
+
+  #tabs .ui-tabs-panel {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #tabs .ui-state-default a {
+    font-size: 14px;
+  }
+
+  .content__prices-items-wrap {
+    justify-content: center;
+  }
+
+  .content__prices-item {
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .content__sign-up-wrap {
+    justify-content: center;
+  }
+
+  .content__sign-up-describe {
+    width: 270px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .content__sign-up-input-wrap {
+    width: 370px;
+  }
+
+  .contacts__adress {
+    margin-left: 5px;
+  }
+
+  .contacts__map-inner {
+    padding: 0;
+  }
+
+  .contacts__form-inputs {
+    width: 200px;
+  }
+
+  .contacts__form-comment {
+    width: 370px;
+  }
+}
+
+@media(max-width: 900px) {
+
+  .contacts__form span,
+  .contacts__adress span {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .contacts__adress-info {
+    width: 100%;
+  }
+
+  .contacts__wrap {
+    justify-content: center;
+  }
+
+  .contacts__adress-info p,
+  ul {
+    display: inline-block;
+  }
+
+  .contacts__adress-info-social ul {
+    padding-top: 0;
+  }
+}
+
+@media(max-width: 840px) {
+  .header__menu .icon-align-justify {
+    display: block;
+  }
+
+  .header__menu-item a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .header__menu {
+    margin-left: 20px;
+  }
+
+  .header__menu-list {
+    position: absolute;
+    z-index: 18;
+    margin-top: 10px;
+    background-color: #bd2d30;
+    display: none;
+  }
+
+  .header__inner {
+    justify-content: start;
+  }
+
+  .header__menu-item {
+    display: list-item;
+  }
+
+  .header__menu-item+.header__menu-item {
+    margin: 0;
+  }
+
+  .header__social {
+    margin-left: auto;
+  }
+
+  .content__about-us-item {
+    width: 240px;
+  }
+
+  .content__team-items-wrap {
+    justify-content: center;
+    padding-bottom: 40px;
+
+  }
+
+  .content__team-item {
+    width: 150px;
+  }
+
+  .content__team-item-name {
+    font-size: 15px;
+  }
+
+  .content__results-progress-group {
+    background-color: transparent;
+  }
+
+  .content__results-progress-group span {
+    padding-left: 5px;
+    width: 150px;
+    font-size: 12px;
+  }
+
+  .content__results-progress-group-bar {
+    width: 200px;
+  }
+
+  .content__results-progress {
+    width: 320px;
+    margin-left: 5px;
+  }
+
+  .content__results-inner {
+    justify-content: center;
+  }
+}
+
+@media(max-width: 605px) {
+  .slider__item-wrap {
+    width: 100%;
+
+  }
+
+  .slider__item-body {
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .content__results-inner {
+    flex-direction: column;
+  }
+
+  .content__results-tabs {
+    align-self: center;
+  }
+
+  .content__results-progress {
+    align-self: center;
+  }
+
+  .content__sign-up-input-wrap a {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .content__sign-up-input-wrap a span {
+    font-size: 20px;
+  }
+
+  .content__sign-up-input-wrap-inner {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .contacts__form-inner form {
+    flex-direction: column;
+  }
+
+  .contacts__form-inputs {
+    width: 100%;
+  }
+
+  .contacts__form-comment {
+    width: 100%;
+  }
+}
+
+@media(max-width: 450px) {
+  .content__prices-item {
+    width: 175px;
+  }
+  .content__prices-item li {
+    padding-bottom: 10px;
+  }
+  .content__prices-item-price {
+    padding-bottom: 20px;
+  }
+}
+@media(max-width:400px) {
+  .content__prices-item {
+    width: 155px;
+}
+}
+@media(max-width: 360px) {
+  .content__sign-up-input-wrap input {
+    width: 60%;
+  }
+  .header__social-list-item + .header__social-list-item {
+    margin-left: 10px;
+}
+  .content__prices-item {
+    margin-right: 5px;
+  }
+  .content__sign-up-input-wrap a {
+    margin-right: 10px;
+  }
+
+}
+@media(max-width: 320px) {
+  .content__team-item {
+    width: 130px;
+    margin-bottom: 5px;
+}
+}
+
+@media(min-width: 840px) {
+  .header__menu-list {
+    display: block !important;
+  }
+}
